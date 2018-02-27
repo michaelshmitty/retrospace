@@ -1,0 +1,47 @@
+<header class="header">
+    <ul class="language-links">
+      {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+      {% for post in posts %}
+        <a href="{{ post.url }}" class="language-links__entry {{ post.lang }}">{{ post.lang | upcase }}</a>
+      {% endfor %}
+
+      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% for page in pages %}
+        <a href="{{ page.url }}" class="language-links__entry {{ page.lang }}">{{ page.lang | upcase}}</a>
+      {% endfor %}
+    </ul>
+
+    {% if page.lang == "nl" %}
+    <a href="{{ '/nl.html' | prepend: site.baseurl }}">
+      <img class="logo__image" alt="Magus" src="/assets/img/magus.png">
+    </a>
+    {% else %}
+    <a href="{{ '/' | prepend: site.baseurl }}">
+      <img class="logo__image" alt="Magus" src="/assets/img/magus.png">
+    </a>
+    {% endif %}
+
+    <div class="navigation">
+        {% if page.lang == "nl" %}
+        <a href="/nl.html" class="logo">{{ site.title }}</a>
+        <ul class="menu">
+            <li class="menu__entry"><a href="{{ '/nl.html' | prepend: site.baseurl }}">Over</a></li>
+            {% for category in site.data.categories %}
+              <li class="menu__entry"><a href="{{ '/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }} (Engels)</a></li>
+            {% endfor %}
+            <li class="menu__entry"><a href="{{ '/communicate.nl.html' | prepend: site.baseurl }}">Communiceer</a></li>
+            <li class="menu__entry"><a href="{{ '/links.nl.html' | prepend: site.baseurl }}">Links</a></li>
+        </ul>
+        {% else %}
+        <a href="/" class="logo">{{ site.title }}</a>
+        <ul class="menu">
+            <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">About</a></li>
+            {% for category in site.data.categories %}
+              <li class="menu__entry"><a href="{{ '/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }}</a></li>
+            {% endfor %}
+            <li class="menu__entry"><a href="{{ '/communicate.html' | prepend: site.baseurl }}">Communicate</a></li>
+            <li class="menu__entry"><a href="{{ '/links.html' | prepend: site.baseurl }}">Links</a></li>
+        </ul>
+        {% endif %}
+    </div>
+</header>
