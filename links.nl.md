@@ -22,6 +22,8 @@ ref: links
 # Softwareontwikkeling algemeen
 - [stb single-file public domain libraries for C/C++](https://github.com/nothings/stb){:target="_blank"}
 - [List of single-file C/C++ libraries. ](https://github.com/nothings/single_file_libs){:target="_blank"}
+- [Crafting Interpreters](http://craftinginterpreters.com/){:target="_blank"}
+: A handbook for making programming languages, by Bob Nystrom.
 
 # Demoscene
 - ["Debris" - Farbrausch](http://www.pouet.net/prod.php?which=30244){:target="_blank"}
