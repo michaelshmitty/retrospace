@@ -29,6 +29,8 @@ ref: links
 - [Making of "Turtles All The Way Down" - Brain](https://geidav.wordpress.com/2013/04/14/making-of-turtles-all-the-way-down/){:target="_blank"}
 - ["A Mind Is Born" - Linus Akesson](https://linusakesson.net/scene/a-mind-is-born/){:target="_blank"}
 - [Pouet: list of all demos](http://www.pouet.net/prodlist.php?order=views){:target="_blank"}
+- [Future Crew: "Second Reality"](https://www.youtube.com/watch?v=rFv7mHTf0nA&t=568s){:target="_blank"} - [(Wikipedia)](https://en.wikipedia.org/wiki/Second_Reality){:target="_blank"} - [(Source code)](https://github.com/mtuomi/SecondReality){:target="_blank"}
+- [Future Crew: "Metropolis" (Archive.org music)](https://archive.org/details/futurecrew-metropolis){:target="_blank"}
 
 # Node-based tools
 - [NodeBox](https://www.nodebox.net/){:target="_blank"}
