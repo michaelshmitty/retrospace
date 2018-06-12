@@ -20,6 +20,7 @@ ref: links
 : by Christian Joudrey.
 
 # General development
+- [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/){:target="_blank"}
 - [stb single-file public domain libraries for C/C++](https://github.com/nothings/stb){:target="_blank"}
 - [List of single-file C/C++ libraries. ](https://github.com/nothings/single_file_libs){:target="_blank"}
 - [Crafting Interpreters](http://craftinginterpreters.com/){:target="_blank"}
